@@ -1,0 +1,9 @@
+[package]
+name = "applet_xfce"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glib = "0.18"
+gtk = { version = "0.18", package = "gtk" }
+tray-item = {version = "0.10.0", features = ["libappindicator"]}
